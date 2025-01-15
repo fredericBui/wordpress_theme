@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<h1>Ceci est un article</h1>
 <div id="single-content">
     <?php
     if ( have_posts() ) :
