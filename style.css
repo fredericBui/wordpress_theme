@@ -1,0 +1,19 @@
+/*
+Theme Name: My theme
+Theme URI: http://example.com/mon-theme
+Author: Votre Nom
+Author URI: http://example.com
+Description: Un thème personnalisé pour WordPress.
+Version: 1.0
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mon-theme
+Tags: personnalisation, responsive
+*/
+
+/* Voici le début de vos styles CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
