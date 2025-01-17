@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="content">
-    <h1>Bienvenue sur mon site !</h1>
+    <h1>Ceci est la page d'accueil</h1>
     <?php
     if ( have_posts() ) :
         while ( have_posts() ) : the_post();
