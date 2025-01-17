@@ -13,14 +13,8 @@
             while (have_posts()) : the_post(); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>              
                     <div class="entry-content">
-                        <?php the_content(); // Affiche un extrait de l'article ?>
+                        <?php the_content(); ?>
                     </div>
-                    
-                    <footer class="entry-footer">
-                        <p class="entry-meta">
-                            Publié le <?php the_time('j F Y'); ?> par <?php the_author(); ?>
-                        </p>
-                    </footer>
                 </article>
             <?php endwhile; ?>
         </div>
