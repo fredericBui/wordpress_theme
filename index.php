@@ -22,11 +22,11 @@
                     </header>
                     
                     <div class="entry-content">
-                        <?php the_excerpt(); // Affiche un extrait de l'article ?>
+                        <?php the_content(); // Affiche un extrait de l'article ?>
                     </div>
                     
                     <footer class="entry-footer">
-                        <a href="<?php the_permalink(); ?>" class="read-more">Lire la suite</a>
+                        <a href="<?php the_permalink(); ?>" class="read-more">Voir l'expérience</a>
                     </footer>
                 </article>
             <?php endwhile; ?>
