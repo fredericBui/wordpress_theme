@@ -4,7 +4,7 @@
     <h1>Ceci est la page d'accueil</h1>
     <?php if (have_posts()) : ?>
         <header class="page-header">
-            <h1 class="page-title">Derniers articles</h1>
+            <h1 class="page-title">Expériences</h1>
         </header>
         
         <div class="posts-list">
