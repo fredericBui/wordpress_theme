@@ -15,6 +15,6 @@ function mon_theme_enqueue_styles() {
     wp_enqueue_style('mon-theme-style', get_stylesheet_uri());
     wp_enqueue_script('mon-theme-script', get_template_directory_uri() . '/js/script.js', array(), null, true);
 }
-addinclude('custom-shortcodes.php');
+include('custom-shortcodes.php');
 ?>
 
