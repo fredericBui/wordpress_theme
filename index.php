@@ -14,7 +14,7 @@
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <header class="entry-header">
                         <h2 class="entry-title">
-                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                            <?php the_title(); ?>
                         </h2>
                     </header>
                     
@@ -23,7 +23,6 @@
                     </div>
                     
                     <footer class="entry-footer">
-                        <a href="<?php the_permalink(); ?>" class="read-more">Voir l'expérience</a>
                         <p class="entry-meta">
                             Publié le <?php the_time('j F Y'); ?> par <?php the_author(); ?>
                         </p>
