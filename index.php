@@ -16,9 +16,6 @@
                         <h2 class="entry-title">
                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                         </h2>
-                        <p class="entry-meta">
-                            Publié le <?php the_time('j F Y'); ?> par <?php the_author(); ?>
-                        </p>
                     </header>
                     
                     <div class="entry-content">
@@ -27,6 +24,9 @@
                     
                     <footer class="entry-footer">
                         <a href="<?php the_permalink(); ?>" class="read-more">Voir l'expérience</a>
+                        <p class="entry-meta">
+                            Publié le <?php the_time('j F Y'); ?> par <?php the_author(); ?>
+                        </p>
                     </footer>
                 </article>
             <?php endwhile; ?>
